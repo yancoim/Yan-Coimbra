@@ -22,7 +22,6 @@ export default function Home() {
       <Head>
         <title>Yan Coimbra</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
@@ -56,7 +55,7 @@ export default function Home() {
             <h3 className='text-3xl mt-5 dark:text-white'>Habilidades</h3>
           </div>
 
-          <div className='md:grid md:grid-cols-1 text-center shadow-lg p-10 rounded-xl my-10 bg-gray-200  dark:bg-violet-900 items-center'>
+          <div className='md:grid md:grid-cols-1 text-center shadow-lg p-10 rounded-xl my-10 bg-violet-400  dark:bg-violet-900 items-center'>
               {/* <div className=''>
                 <Image src={code}  className='inline'/>
               </div> */}
