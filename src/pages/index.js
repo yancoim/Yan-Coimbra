@@ -55,7 +55,7 @@ export default function Home() {
             <h3 className='text-3xl mt-5 dark:text-white'>Habilidades</h3>
           </div>
 
-          <div className='md:grid md:grid-cols-1 text-center shadow-lg p-10 rounded-xl my-10 bg-violet-400  dark:bg-violet-900 items-center'>
+          <div className='md:grid md:grid-cols-1 text-center shadow-lg p-10 rounded-xl my-10 bg-neutral-100  dark:bg-violet-900 items-center'>
               {/* <div className=''>
                 <Image src={code}  className='inline'/>
               </div> */}
