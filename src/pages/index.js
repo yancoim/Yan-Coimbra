@@ -12,6 +12,7 @@ import tailwind from '../assets/tailwind.svg'
 import react from '../assets/reactjs.svg'
 import loginLol from '../assets/login-page-lol.png'
 import cep from '../assets/cep.jpg'
+import buscacep from '../assets/buscacep.png'
 import bootstrap from '../assets/bootstrap.svg'
 import calc from '../assets/calculadora.png'
 import { useState } from 'react';
@@ -132,13 +133,12 @@ export default function Home() {
         </div>
         
         <div className='mt-5 flex flex-col items-center'>
-        <Image src={cep}  className='rounded-lg md:w-10/12'/>
+        <Image src={buscacep}  className='rounded-lg md:w-10/12'/>
 
         <div className='flex items-center gap-8 md:gap-5 mt-1'>
           <div className='flex'>
-          <Image src={html5} width={50} className=' xl:w-16 '/> 
-          <Image src={bootstrap} width={50} className='xl:w-16  '/> 
-          <Image src={javascript} width={50} className='xl:w-16 '/>
+          <Image src={react} width={50} className=' xl:w-16 '/> 
+          <Image src={tailwind} width={50} className='xl:w-16  '/> 
           </div>
           <div>
           <button className='rounded-md bg-indigo-500 hover:bg-indigo-600 transition duration-300 p-2 text-xs text-white'><a href='https://yancoim.github.io/consultaCep/' target={'_blank'}>Acessar</a></button>
