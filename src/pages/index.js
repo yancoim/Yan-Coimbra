@@ -10,10 +10,9 @@ import javascript from '../assets/javascript.svg'
 import doctorcare from '../assets/doctorcare.png'
 import tailwind from '../assets/tailwind.svg'
 import react from '../assets/reactjs.svg'
+import nextjs from '../assets/nextjs.svg'
 import loginLol from '../assets/login-page-lol.png'
-import cep from '../assets/cep.jpg'
 import buscacep from '../assets/buscacep.png'
-import bootstrap from '../assets/bootstrap.svg'
 import calc from '../assets/calculadora.png'
 import { useState } from 'react';
 export default function Home() {
@@ -137,7 +136,7 @@ export default function Home() {
 
         <div className='flex items-center gap-8 md:gap-5 mt-1'>
           <div className='flex'>
-          <Image src={react} width={50} className=' xl:w-16 '/> 
+          <Image src={nextjs} width={50} className=' xl:w-16 '/> 
           <Image src={tailwind} width={50} className='xl:w-16  '/> 
           </div>
           <div>
