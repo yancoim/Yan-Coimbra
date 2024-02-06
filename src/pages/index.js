@@ -140,7 +140,7 @@ export default function Home() {
           <Image src={tailwind} width={50} className='xl:w-16  '/> 
           </div>
           <div>
-          <button className='rounded-md bg-indigo-500 hover:bg-indigo-600 transition duration-300 p-2 text-xs text-white'><a href='https://yancoim.github.io/consultaCep/' target={'_blank'}>Acessar</a></button>
+          <button className='rounded-md bg-indigo-500 hover:bg-indigo-600 transition duration-300 p-2 text-xs text-white'><a href='https://buscador-cep-app.vercel.app/' target={'_blank'}>Acessar</a></button>
           </div>
         </div>
 
